@@ -7,13 +7,10 @@ ENV JVB_BREWERY_MUC_COMPONENT=internal-muc.auth.meet.jitsi \
     JVB_AUTH_PASSWORD=1234aa \
     JVB_ENABLE_APIS=rest \
     XMPP_SERVER=nap_owp_jitsi_prosody_LOCAL \
-    JICOFO_AUTH_USER=focus \
-    JICOFO_AUTH_PASSWORD=1234aa \
     XMPP_DOMAIN=meet.jitsi \
     XMPP_AUTH_DOMAIN=auth.meet.jitsi \
     XMPP_MUC_DOMAIN=muc.meet.jitsi \
     XMPP_INTERNAL_MUC_DOMAIN=internal-muc.auth.meet.jitsi
 
 EXPOSE 10000/udp
-EXPOSE 4443/tcp
-EXPOSE 8080/tcp
+EXPOSE 8080
