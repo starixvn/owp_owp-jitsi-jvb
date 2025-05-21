@@ -13,4 +13,5 @@ ENV JVB_BREWERY_MUC_COMPONENT=internal-muc.auth.meet.jitsi \
     XMPP_INTERNAL_MUC_DOMAIN=internal-muc.auth.meet.jitsi
 
 EXPOSE 10000/udp
+EXPOSE 10000/tcp
 EXPOSE 8080
